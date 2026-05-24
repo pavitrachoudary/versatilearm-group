@@ -1,0 +1,8 @@
+{
+  "name": "VersatileArm Group",
+  "description": "Building the infrastructure for a more equitable world. Parent company for VLands and Ownmyland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
