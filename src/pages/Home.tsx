@@ -460,7 +460,7 @@ const Home = () => {
                 <p className="text-neutral-500 leading-relaxed text-sm max-w-sm">
                   VAG is actively building its advisory board. We seek domain experts in Indian land law, SEBI/RERA regulatory frameworks, blockchain infrastructure, and high-velocity B2C distribution. Current core team: Uday Kiran Lingipalli (Founder & CEO) and Vishal D Mehta (CFO) — with a founding engineer team committed through the pre-seed phase.
                 </p>
-                <Link to="/contact" className="text-primary font-bold hover:underline">Join as Advisor &rarr;</Link>
+                <Link to="/careers" className="text-primary font-bold hover:underline">Join as Advisor &rarr;</Link>
               </div>
             </motion.div>
           </div>
