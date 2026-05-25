@@ -62,7 +62,7 @@ const About = () => {
             
             <div className="flex flex-col gap-20 pt-12 w-full min-w-0">
               <p className="text-2xl text-neutral-300 leading-[var(--leading-body)] w-full max-w-2xl">
-                That moment redefined the trajectory for our founder, <span className="text-white font-bold">Dr.Uday Kiran Lingipalli</span>. It exposed the "Wealth Lock"—the paradox where India's most trusted asset is also its most illiquid.
+                That moment redefined the trajectory for our founder, <span className="text-white font-bold">Uday Kiran Lingipalli</span>. It exposed the "Wealth Lock"—the paradox where India's most trusted asset is also its most illiquid.
               </p>
               <div className="grid grid-cols-1 gap-8">
                 {[

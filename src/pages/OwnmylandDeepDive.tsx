@@ -407,7 +407,7 @@ const OwnmylandDeepDive = () => {
                     <h3 className="text-3xl font-display font-medium">The Team</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       {[
-                        { name: 'Dr.Uday Kiran Lingipalli', role: 'Founder & CEO', bio: "Medical-background entrepreneur who became obsessed with India's land problem after watching people lose savings to property fraud. Built Chikitsaaa (30K MAU). Spent 5 months mapping India's land legislation changes.", email: 'udaylingipalli@ownmyland.co', image: 'https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF' },
+                        { name: 'Uday Kiran Lingipalli', role: 'Founder & CEO', bio: "Medical-background entrepreneur who became obsessed with India's land problem after watching people lose savings to property fraud. Built Chikitsaaa (30K MAU). Spent 5 months mapping India's land legislation changes.", email: 'udaylingipalli@ownmyland.co', image: 'https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF' },
                         { name: 'Vishal D Mehta', role: 'CFO', bio: "Financial architect who brings discipline and institutional credibility to OwnMyLand's capital structure. Responsible for investor relations, unit economics modelling, and the financial framework that makes fractional land ownership structurally sound.", email: 'team@ownmyland.co', image: 'https://lh3.googleusercontent.com/d/1RtLGWgHOFs1QjaLj18R809EfEprMB9OJ' },
                       ].map(t => (
                         <div key={t.name} className="p-10 bg-neutral-950 text-white rounded-2xl flex flex-col gap-4">

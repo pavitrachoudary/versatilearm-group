@@ -564,7 +564,7 @@ const VLandsDeepDive = () => {
                     <h3 className="text-3xl font-display font-medium">The Team</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       {[
-                        { name: 'Dr.Uday Kiran Lingipalli', role: 'Founder & CEO', bio: 'Final-year medical student turned infrastructure founder. Spent 5 months mapping every UDS regulatory requirement, governmental mutation phase, and registration protocol under India Registration Bill 2025. Previously built Chikitsaaa to 30,000 monthly visitors.', email: 'investors@vlands.app', image: 'https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF' },
+                        { name: 'Uday Kiran Lingipalli', role: 'Founder & CEO', bio: 'Final-year medical student turned infrastructure founder. Spent 5 months mapping every UDS regulatory requirement, governmental mutation phase, and registration protocol under India Registration Bill 2025. Previously built Chikitsaaa to 30,000 monthly visitors.', email: 'investors@vlands.app', image: 'https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF' },
                         { name: 'Vishal D Mehta', role: 'CFO', bio: 'Financial architect responsible for VLands capital structure, investor relations, and revenue model. Built the unit economics framework that makes VLands profitable per transaction from Day 1.', email: 'team@vlands.app', image: 'https://lh3.googleusercontent.com/d/1RtLGWgHOFs1QjaLj18R809EfEprMB9OJ' },
                       ].map(t => (
                         <div key={t.name} className="p-10 bg-neutral-950 text-white rounded-2xl flex flex-col gap-4">

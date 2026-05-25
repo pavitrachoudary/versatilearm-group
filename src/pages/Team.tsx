@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Team = () => {
   const leaders = [
     {
-      name: 'Dr.Uday Kiran Lingipalli',
+      name: 'Uday Kiran Lingipalli',
       role: 'Founder & CEO',
       bio: 'Final-year medical student turned infrastructure founder. Spent 5 months mapping every UDS regulatory requirement, governmental mutation phase, and registration protocol under India\'s Registration Bill 2025. Previously built Chikitsaaa to 30,000 monthly visitors. Combines thorough verification with execution.',
       location: 'Visakhapatnam, India',

@@ -370,7 +370,7 @@ const Home = () => {
              {!imgError ? (
                <img 
                  src="https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF" 
-                 alt="Dr.Uday Kiran Lingipalli" 
+                 alt="Uday Kiran Lingipalli" 
                  referrerPolicy="no-referrer"
                  className="w-full h-full object-cover transition-transform group-hover:scale-110"
                  onError={() => setImgError(true)}
@@ -396,7 +396,7 @@ const Home = () => {
               transition={{ delay: 0.4 }}
               className="flex flex-col gap-1"
             >
-              <cite className="not-italic text-2xl md:text-3xl font-bold text-accent">Dr.Uday Kiran Lingipalli</cite>
+              <cite className="not-italic text-2xl md:text-3xl font-bold text-accent">Uday Kiran Lingipalli</cite>
               <span className="text-neutral-400 uppercase tracking-widest text-sm font-mono font-bold">Founder & CEO, Versatile Arm Group</span>
             </motion.div>
           </div>
@@ -422,7 +422,7 @@ const Home = () => {
                 {!imgError ? (
                   <img 
                     src="https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF" 
-                    alt="Dr.Uday Kiran Lingipalli" 
+                    alt="Uday Kiran Lingipalli" 
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
                     onError={() => setImgError(true)}
@@ -433,7 +433,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col">
-                  <h3 className="text-2xl font-display font-bold text-neutral-950">Dr.Uday Kiran Lingipalli</h3>
+                  <h3 className="text-2xl font-display font-bold text-neutral-950">Uday Kiran Lingipalli</h3>
                   <span className="section-label text-primary mt-1">Founder & CEO</span>
                 </div>
                 <p className="text-neutral-600 leading-relaxed text-sm">
@@ -489,7 +489,7 @@ const Home = () => {
             <h2 className="text-4xl md:text-6xl font-display leading-[var(--leading-title)]" style={{ color: '#ffffff' }}>Ready to build the future of ownership?</h2>
             <p className="text-xl text-primary-light leading-[var(--leading-body)] w-full max-w-2xl mx-auto">Whether you're an investor, partner, or landowner, we'd love to connect.</p>
           </div>
-          <Link to="/contact" className="z-10 btn-cta bg-white text-primary hover:bg-neutral-100">
+          <Link to="/careers" className="z-10 btn-cta bg-white text-primary hover:bg-neutral-100">
             Get in Touch
           </Link>
         </motion.div>

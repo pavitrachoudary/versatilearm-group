@@ -815,7 +815,7 @@ const Careers = () => {
           <div className="border border-neutral-200 rounded-3xl p-10 md:p-14 bg-white flex flex-col md:flex-row gap-10 items-start">
             <img 
               src="https://lh3.googleusercontent.com/d/1q2uYqrtvrfSbTMcPkhdF_OSZw30NgGhF" 
-              alt="Dr.Uday Kiran Lingipalli" 
+              alt="Uday Kiran Lingipalli" 
               className="w-16 h-16 md:w-20 md:h-20 rounded-2xl object-cover shrink-0 grayscale hover:grayscale-0 transition-all duration-300" 
               referrerPolicy="no-referrer" 
             />
