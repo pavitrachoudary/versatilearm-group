@@ -109,7 +109,7 @@ const Header = ({ headerTheme = 'dark' }: { headerTheme?: 'light' | 'dark' }) =>
               </Link>
             );
           })}
-          <Link to="/careers" className="btn-primary">
+          <Link to="/contact" className="btn-primary">
             Get in Touch
           </Link>
         </nav>
@@ -181,7 +181,7 @@ const Header = ({ headerTheme = 'dark' }: { headerTheme?: 'light' | 'dark' }) =>
             {/* Sticky Get in Touch Button */}
             <div className="p-8 border-t border-neutral-200/50 bg-[#fafaf8] sticky bottom-0">
               <Link 
-                to="/careers" 
+                to="/contact" 
                 className="btn-primary w-full text-center py-4 text-lg rounded-md block shadow-md"
               >
                 Get in Touch
@@ -331,7 +331,7 @@ const Footer = () => {
                   <p className="text-neutral-300 text-sm leading-relaxed max-w-sm">30-15-109/1, Near Reliance Trends, Main Road, Daba Gardens, Visakhapatnam, Andhra Pradesh, 530020</p>
                 </div>
                 
-                <Link to="/careers" className="text-accent font-bold mt-2">Get in Touch</Link>
+                <Link to="/contact" className="text-accent font-bold mt-2">Get in Touch</Link>
                 <div className="flex flex-col gap-1.5 mt-4">
                   <span className="text-[10px] font-mono text-primary-light font-bold uppercase tracking-widest block">Pitch Decks</span>
                   <Link to="/pitch/vlands" className="text-neutral-400 text-xs hover:text-white transition-colors">VLands Pitch Deck</Link>

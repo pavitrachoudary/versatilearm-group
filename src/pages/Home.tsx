@@ -489,7 +489,7 @@ const Home = () => {
             <h2 className="text-4xl md:text-6xl font-display leading-[var(--leading-title)]" style={{ color: '#ffffff' }}>Ready to build the future of ownership?</h2>
             <p className="text-xl text-primary-light leading-[var(--leading-body)] w-full max-w-2xl mx-auto">Whether you're an investor, partner, or landowner, we'd love to connect.</p>
           </div>
-          <Link to="/careers" className="z-10 btn-cta bg-white text-primary hover:bg-neutral-100">
+          <Link to="/contact" className="z-10 btn-cta bg-white text-primary hover:bg-neutral-100">
             Get in Touch
           </Link>
         </motion.div>
