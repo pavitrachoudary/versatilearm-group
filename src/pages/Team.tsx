@@ -187,7 +187,7 @@ const Team = () => {
                       </div>
                       <div className="flex flex-col gap-2">
                          <h4 className="text-xl md:text-2xl font-bold font-display group-hover:text-primary transition-colors">{advisor.name}</h4>
-                         <span className="text-label text-primary font-bold">{Array.isArray(advisor.role) ? advisor.role.map((r, i) => <span key={i} className="block">{r}</span>) : advisor.role}</span>
+                         <span className="text-label text-primary font-bold">{Array.isArray(advisor.role) ? advisor.role.map((r, i) => <span key={i} className="block mb-1">{r}</span>) : advisor.role}</span>
                          <p className="text-neutral-500 text-sm leading-[1.6] italic mt-2 group-hover:text-neutral-700 transición-colors">"{advisor.bio}"</p>
                       </div>
                    </div>
