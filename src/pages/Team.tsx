@@ -45,7 +45,7 @@ const Team = () => {
     },
     {
       name: 'Palagiri Avinash Kumar Reddy',
-      role: 'Investor of OwnMyLand · Co-Founder of PSR Constructions & SubmitX.ai',
+      role: ['Investor of OwnMyLand', 'Co-Founder of PSR Constructions & SubmitX.ai'],
       bio: 'Specialising in ecosystem partnerships, strategic market penetration, expanding distribution networks, and orchestrating brand positioning for high-performance scale.',
       image: 'https://lh3.googleusercontent.com/d/1vF4hHIi-3QdNAXyl8EbDQtk5Cs9RUT4t'
     }
@@ -179,7 +179,7 @@ const Team = () => {
                  <span className="section-label">The Council</span>
                  <h2 className="text-3xl md:text-4xl font-display font-bold italic tracking-tighter leading-[var(--leading-title)]">Advisory Board</h2>
               </div>
-              <div className="grid grid-cols-1 gap-x-16 gap-y-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-12">
                  {advisors.map((advisor, i) => (
                    <div key={i} className="flex gap-8 group">
                       <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-neutral-100 overflow-hidden flex-shrink-0 grayscale group-hover:grayscale-0 transition-all border border-neutral-100 p-1 bg-white ring-4 ring-neutral-50 shadow-sm">
@@ -187,7 +187,7 @@ const Team = () => {
                       </div>
                       <div className="flex flex-col gap-2">
                          <h4 className="text-xl md:text-2xl font-bold font-display group-hover:text-primary transition-colors">{advisor.name}</h4>
-                         <span className="text-label text-primary font-bold">{advisor.role}</span>
+                         <span className="text-label text-primary font-bold">{Array.isArray(advisor.role) ? advisor.role.map((r, i) => <span key={i} className="block">{r}</span>) : advisor.role}</span>
                          <p className="text-neutral-500 text-sm leading-[1.6] italic mt-2 group-hover:text-neutral-700 transición-colors">"{advisor.bio}"</p>
                       </div>
                    </div>
