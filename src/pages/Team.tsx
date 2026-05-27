@@ -179,7 +179,7 @@ const Team = () => {
                  <span className="section-label">The Council</span>
                  <h2 className="text-3xl md:text-4xl font-display font-bold italic tracking-tighter leading-[var(--leading-title)]">Advisory Board</h2>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-12">
+              <div className="grid grid-cols-1 gap-x-16 gap-y-12">
                  {advisors.map((advisor, i) => (
                    <div key={i} className="flex gap-8 group">
                       <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-neutral-100 overflow-hidden flex-shrink-0 grayscale group-hover:grayscale-0 transition-all border border-neutral-100 p-1 bg-white ring-4 ring-neutral-50 shadow-sm">
