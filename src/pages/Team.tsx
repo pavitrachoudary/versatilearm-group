@@ -45,7 +45,13 @@ const Team = () => {
     },
     {
       name: 'Palagiri Avinash Kumar Reddy',
-      role: 'Business Growth Strategist',
+      role: 'Investor of OwnMyLand · Co-Founder of PSR Constructions & SubmitX.ai',
+      bio: 'Specialising in ecosystem partnerships, strategic market penetration, expanding distribution networks, and orchestrating brand positioning for high-performance scale.',
+      image: 'https://lh3.googleusercontent.com/d/1vF4hHIi-3QdNAXyl8EbDQtk5Cs9RUT4t'
+    },
+    {
+      name: 'Palagiri Avinash Kumar Reddy',
+      role: 'Investor of OwnMyLand · Co-Founder of PSR Constructions & SubmitX.ai',
       bio: 'Specialising in ecosystem partnerships, strategic market penetration, expanding distribution networks, and orchestrating brand positioning for high-performance scale.',
       image: 'https://lh3.googleusercontent.com/d/1vF4hHIi-3QdNAXyl8EbDQtk5Cs9RUT4t'
     }
